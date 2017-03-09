@@ -1,0 +1,143 @@
+body, h1, h2, h3, ul, li {
+	margin: 0;
+	padding: 0;
+		
+}
+body{
+	background: linear-gradient(to right, #C9D5FF, #7797FF, #C9D5FF );
+}
+.logotip {
+	
+	
+	
+}
+.wrapper {
+	max-width: 960px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 0;
+}
+nav {
+	;
+}
+nav img {
+	width: 150px;
+	
+}
+
+
+
+.menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+	float: right;
+}
+
+.menu li {
+    display: inline-block;
+    margin-right: 1px;
+}
+
+.menu a {
+    display: block;
+    margin-right: -1px;
+    padding: 8px 10px;
+    color: #000;
+    background-color: #6B97FF;
+    border-top: 1px solid black;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	border-radius: 15px 15px 0 0;
+}
+
+.menu a:hover {
+    background: #DCDCDC;
+	color: #000;
+	
+}
+.main {
+	;
+}
+.main  img{
+	width: 100%;
+	
+}
+.lesson {
+	;
+	
+}
+.lesson .wrapper .subtitle {
+	margin-top: 10px;
+	font-size: 18px;
+	text-align: center;
+	display: flex;
+	justify-content: space-around;
+}
+.lesson .wrapper h2 {
+	text-align: center;
+	color: #000; 
+	
+}
+.lesson .wrapper .subtitle .items .item img {
+	
+    transition: 2s linear;
+	
+	
+}
+.lesson .wrapper .subtitle .items .item img:hover {
+	-webkit-transform: scale(1.2) rotate(360deg);
+    transform: scale(1.2)rotate(360deg);
+	-o-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+	
+}
+
+
+.experts .wrapper .subtitle {
+	
+	margin-top: 10px;
+	font-size: 18px;
+	text-align: center;
+	display: flex;
+	
+}
+.experts .wrapper .subtitle  .items{
+	
+	width: 48%;
+	padding: 0 0.5%;
+}
+.experts .wrapper .subtitle img {
+	height: 450px;
+	border: 5px solid #7A9FFF;
+	border-radius: 20px;
+	
+}
+.experts .wrapper .subtitle  .items .item .soder{
+	color: #000;
+	text-align: justify;
+	border: 5px solid #5694FF;
+	border-radius: 25px;
+	padding: 0 10px;
+	background: linear-gradient(to right, #5694FF ,#AAD7FF, #5694FF);
+		
+}
+.futter .wrapper {
+	border-top: 2px solid #fff;
+	
+	
+}
+.copira {
+	text-align: center;
+	position: bottom;
+		
+}
+.contact {
+	text-align: right;
+		
+}
+.panda {
+	float: left;
+	
+}
+

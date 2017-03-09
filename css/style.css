@@ -1,0 +1,151 @@
+body, h1, h2, h3, ul, li {
+	margin: 0;
+	padding: 0;
+	
+}
+
+
+.wrapper {
+	max-width: 1024px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 30px 10px 20px;
+	
+}
+h1, h2, h3 {
+	text-align: center;
+	color: #fff;	
+}
+
+h1 {
+	font-size: 40px;
+}
+
+h2 {
+	font-size: 30px;
+}
+.subtitle {
+	margin-top: 10px;
+	font-size: 18px;
+	text-align: center;
+	
+	
+	
+}
+nav {
+	background:#f46262;
+	
+}
+nav img {
+	float: right;
+}
+/*  меню*/
+.main-menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    /* border: 1px solid #e5e5e5; */
+	float: left;
+}
+
+.main-menu li {
+    display: inline-block;
+    margin-right: -4px;
+}
+
+.main-menu a {
+    display: block;
+    margin-left: -1px;
+    padding: 8px 10px;
+    color: #0088cc;
+    background-color: #f46262;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.main-menu a:hover {
+    background: #eeeeee;
+	
+}
+.header {
+	background:#eb504e;
+	
+}
+.header .subtitle {
+	color: #fff;
+	
+}
+.art {
+	 width: 100%;
+	 margin: 0;
+	
+}
+.advantages {
+	background:#232323;
+	
+}
+.advantages .subtitle {
+	color: #fff;
+	
+}
+.advantages .items {
+	margin-top: 30px;
+	text-align: center;
+	
+}
+.advantages .items .item {
+
+	float: left;
+	width: 28%;
+	margin: 0 2.66%;
+	
+}
+.advantages .items .item .name {
+	color: #fff;
+	font-size: 28px;
+}
+.advantages .items .item .description {
+	color: #eb504e;
+}
+.experts {
+	background:#6cc372;
+	
+}
+.experts .subtitle{
+	color: #fff;
+	
+}
+.experts .items {
+	margin-top: 30px;
+	text-align: center;
+	display: flex;
+	
+	
+}
+.experts .items .item {
+	background: #fff;
+	float: left;
+	width: 20%;
+	margin: 0 2.5%;
+	border: 1px dotted #000;
+}
+.experts .items .item .name {
+	color: #404040;
+	font-size: 28px;
+}
+.experts .items .item .description {
+	color: #000;
+	text-align: justify;
+	padding: 5px;
+
+
+
+}
+
+/* подвал*/
+.footer {
+	background:#232323;
+	color: #fff;
+	text-align: center;
+}
+
+
